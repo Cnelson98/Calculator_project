@@ -32,6 +32,8 @@ button {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: 10rem auto;
+  margin-top: 50px;
+
   border-radius: 50%;
   gap: 0.5rem;
 }
