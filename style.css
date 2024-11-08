@@ -1,0 +1,36 @@
+.calculatorwrapper {
+  border: 2px black solid;
+  border-radius: 50px;
+  box-shadow: 10px 10px 10px 10px rgb(52, 137, 52);
+  width: 400px;
+  height: 600px;
+  margin-left: 40%;
+  margin-top: 10%;
+  background: black;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  justify-content: space-evenly;
+  border: 3px solid black;
+  border-radius: 40%;
+  background-color: rgb(52, 137, 52);
+  color: white;
+}
+
+.inputbox {
+  border: 2px black solid;
+  height: 100px;
+  margin-left: 20px;
+  width: 350px;
+  border-radius: 20%;
+}
+
+.buttonCalculator {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 10rem auto;
+  border-radius: 50%;
+  gap: 0.5rem;
+}
