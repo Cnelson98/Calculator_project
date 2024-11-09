@@ -1,21 +1,21 @@
 .calculatorwrapper {
   border: 2px black solid;
   border-radius: 50px;
-  box-shadow: 10px 10px 10px 10px rgb(52, 137, 52);
+  box-shadow: 10px 10px 10px 10px rgb(22, 162, 46);
   width: 400px;
   height: 600px;
   margin-left: 40%;
   margin-top: 10%;
-  background: black;
+  background: rgb(0, 0, 0);
 }
 
 button {
   padding: 10px;
   margin: 5px;
   justify-content: space-evenly;
-  border: 3px solid black;
+  border: 3px solid rgb(0, 0, 0);
   border-radius: 40%;
-  background-color: rgb(52, 137, 52);
+  background-color: rgb(22, 116, 56);
   color: white;
 }
 
@@ -28,6 +28,7 @@ button {
   margin-top: 20px;
   font-size: 4rem;
   text-align: right;
+  background-color: white;
 }
 
 .buttonCalculator {
@@ -36,9 +37,6 @@ button {
   margin: 5rem auto;
   border-radius: 50%;
   gap: 0.5rem;
-}
-.button {
-  margin: 100px;
 }
 
 .itemzero {

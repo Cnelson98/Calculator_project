@@ -1,45 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <section class="calculatorwrapper">
-        <input type="text" class="inputbox"></input>
-       
-        <div class="buttonCalculator">
-         <button onclick="clearDisplay()" id="button" class="1">C</button>       
-         
-         <button onclick="" id="button" class="plus">+/-</button>
-        <button onclick="" id="button" class="percentage">%</button>
-        <button onclick="appendDivide()" id="button" class="division">/</button>
-        <button onclick="appendNumber(7)"  id="button" class="seven">7</button>
-        <button onclick="appendNumber(8)" id="button" class="eight">8</button>
-        <button onclick="appendNumber(9)" id="button" class="nine">9</button>
-        <button onclick="appendMultiply()" id="button" class="mult">*</button>
-        <button onclick="appendNumber(4)" id="button" class="four">4</button>
-        <button onclick="appendNumber(5)" id="button" class="five">5</button>
-        <button onclick="appendNumber(6)" id="button" class="six">6</button>
-        <button onclick="appendMinus()" id="button" class="subtraction">-</button>
-        <button onclick="appendNumber(1)" id="button" class="one">1</button>
-        <button onclick="appendNumber(2)" id="button" class="two">2</button>
-        <button onclick="appendNumber(3)" id="button" class="three">3</button>
-        <button onclick="appendPlus()"    id="button" class="addition">+</button>
-        <button onclick="appendNumber(0)" id="button" class="itemzero">0</button> 
-        <button onclick="appendNumber()" id="button" class="decimal">.</button> 
-        <button onclick="calculateEquation()" id="button" class="equals">=</button> 
-
-
-    
-            
-    </div>
-
-
+      <!-- innerHTML wont work on input boxes, use white bavckground on a div  -->
+      <div class="inputbox" id="inputbox"></div>
+      <div class="buttonCalculator">
+        <button onclick="clearButton()" class="clear">C</button>
+        <button class="plus button">+</button>
+        <button class="percentage button">%</button>
+        <button class="division button">/</button>
+        <button class="seven button">7</button>
+        <button class="eight button">8</button>
+        <button class="nine button">9</button>
+        <button class="mult button">*</button>
+        <button class="four button">4</button>
+        <button class="five button">5</button>
+        <button class="six button">6</button>
+        <button class="subtraction button">-</button>
+        <button class="one button">1</button>
+        <button class="two button">2</button>
+        <button class="three button">3</button>
+        <button class="addition button">+</button>
+        <button class="itemzero button">0</button>
+        <button class="decimal button">.</button>
+        <button onclick="calculateEquation()" class="equals">=</button>
+      </div>
     </section>
-        <script src = 'carmani.js'></script>
-</body>
+    <script src="carmani2.js"></script>
+  </body>
 </html>

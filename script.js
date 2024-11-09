@@ -1,3 +1,10 @@
+
+Const buttons = document.querySelectorAll(."button");
+
+
+
+
+
 let display = document.getElementById("calculatorInput");
 let usersInputEquation = [];
 let appendNumber = (number) => {
