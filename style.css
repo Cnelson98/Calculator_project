@@ -21,20 +21,26 @@ button {
 
 .inputbox {
   border: 2px black solid;
-  height: 100px;
+  height: 150px;
   margin-left: 20px;
   width: 350px;
-  border-radius: 20%;
+  border-radius: 10%;
   margin-top: 10px;
+  font-size: 4rem;
+  text-align: right;
 }
 
 .buttonCalculator {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin: 10rem auto;
+  margin: 5rem auto;
   border-radius: 50%;
   gap: 0.5rem;
 }
 .button {
   margin: 100px;
+}
+
+.itemzero {
+  grid-column: 1 / span 2;
 }
