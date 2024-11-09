@@ -28,6 +28,7 @@ button {
   margin-top: 20px;
   font-size: 4rem;
   text-align: right;
+  background-color: white;
 }
 
 .buttonCalculator {
@@ -36,9 +37,6 @@ button {
   margin: 5rem auto;
   border-radius: 50%;
   gap: 0.5rem;
-}
-.button {
-  margin: 100px;
 }
 
 .itemzero {
