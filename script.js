@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let display = document.getElementById("calculatorInput");
 let usersInputEquation = [];
 let appendNumber = (number) => {
@@ -35,3 +36,6 @@ let appendMultiply = () => {
 let clearDisplay = () => {
   display.value = "";
 };
+=======
+"use strict";
+>>>>>>> refs/remotes/origin/main
