@@ -4,8 +4,7 @@
   box-shadow: 10px 10px 10px 10px rgb(22, 162, 46);
   width: 400px;
   height: 600px;
-  margin-left: 40%;
-  margin-top: 10%;
+  margin: 5rem auto;
   background: rgb(0, 0, 0);
 }
 
@@ -24,7 +23,7 @@ button {
   height: 140px;
   margin-left: 20px;
   width: 350px;
-  border-radius: 10%;
+  border-radius: 2rem;
   margin-top: 20px;
   font-size: 4rem;
   text-align: right;
@@ -41,4 +40,32 @@ button {
 
 .itemzero {
   grid-column: 1 / span 2;
+}
+@media screen and (min-width: 551px) and (max-width: 999px) {
+  .calculatorwrapper {
+    width: 400px;
+    height: 600px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .calculatorwrapper {
+    width: 500px;
+    height: 600px;
+  }
+
+  .inputbox {
+    width: 450px;
+    height: 150;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 550px) {
+  .calculatorwrapper {
+    width: 300px;
+    height: 550px;
+  }
+
+  .inputbox {
+    width: 250px;
+    height: 100px;
+  }
 }
