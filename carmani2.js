@@ -118,6 +118,9 @@ let determineMath = () => {
       //handling errors for when people try to divide by 0
       if (secondNumber === 0) {
         alert("Cannot divide by 0, please enter another number");
+        userInputEquation = [];
+        document.getElementById("inputbox").innerText = "";
+
         return;
       }
 
