@@ -39,6 +39,19 @@ button {
   gap: 0.5rem;
 }
 
-.itemzero {
-  grid-column: 1 / span 2;
+@media screen and (min-width: 767px) {
+  .calculatorWrapper {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1022px) {
+  .calculatorWrapper {
+    width: 60%;
+  }
+  .numberButtons {
+    padding: 2rem;
+  }
+  .numberButtons button {
+    margin: 0.5rem;
+  }
 }
